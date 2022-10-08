@@ -1,4 +1,4 @@
-import { IOrganizer, ISponsor } from './types'
+import { IOrganizer, ISponsor, IEvent } from './types'
 
 export const year = new Date().getFullYear()
 export const weWillHave = ['Marató de PRs', 'Xerrades i tallers', 'Lightning talks']
@@ -46,5 +46,33 @@ export const sponsors: ISponsor[] = [
   {
     logo: 'kave_home.png',
     web: 'https://kavehome.com/es/es/'
+  }
+]
+
+export const diary: IEvent[] = [
+  {
+    hour: '9:30',
+    rooms: [
+      {
+        name: 'Pati',
+        event: 'Obertura de portes',
+        link: null
+      }
+    ]
+  },
+  {
+    hour: '11:00',
+    rooms: [
+      {
+        name: 'Pati',
+        event: 'Home Assistant',
+        link: null
+      },
+      {
+        name: 'Claustre',
+        event: 'Marató PR',
+        link: null
+      }
+    ]
   }
 ]
