@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import ATitle from '../Atoms/ATitle.vue'
 import ALink from '../Atoms/ALink.vue'
+import ASection from '../Atoms/ASection.vue'
 </script>
 
 <template>
-  <div class="p-4">
+  <ASection>
     <ATitle>Codi de conducte</ATitle>
     <p>
       Per participar hauràs d'acceptar el nostre
@@ -14,5 +15,5 @@ import ALink from '../Atoms/ALink.vue'
         >Hacktoberfest</ALink
       >. Gràcies!
     </p>
-  </div>
+  </ASection>
 </template>

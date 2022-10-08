@@ -3,6 +3,7 @@ import { ref } from 'vue'
 import ATitle from '../Atoms/ATitle.vue'
 import ABox from '../Atoms/ABox.vue'
 import AButton from '../Atoms/AButton.vue'
+import ASection from '../Atoms/ASection.vue'
 
 const email = ref('')
 const handlerClick = () => {
@@ -14,12 +15,12 @@ const handlerClick = () => {
 </script>
 
 <template>
-  <div class="bg-secondary text-white p-4">
+  <ASection variant="dark">
     <ATitle>Contacte</ATitle>
     <ABox class="flex flex-wrap">
       <p class="mb-2">Vull estar al corrent de les novetats de Geeks.CAT</p>
       <input type="email" class="p-2 rounded mr-2 w-40 text-secondary" placeholder="un@email.cat" v-model="email" />
       <AButton variant="light" @click="handlerClick">Notifica'm</AButton>
     </ABox>
-  </div>
+  </ASection>
 </template>

@@ -2,12 +2,13 @@
 import { sponsors } from '../../content'
 import ATitle from '../Atoms/ATitle.vue'
 import ALink from '../Atoms/ALink.vue'
+import ASection from '../Atoms/ASection.vue'
 
 const getImageUrl = (name: string) => new URL(`../../assets/images/${name}`, import.meta.url).href
 </script>
 
 <template>
-  <div class="p-4">
+  <ASection>
     <ATitle>Patrocinadors</ATitle>
     <div class="flex flex-wrap">
       <div v-for="(sponsor, index) in sponsors" :key="index" class="text-center w-1/2">
@@ -16,5 +17,5 @@ const getImageUrl = (name: string) => new URL(`../../assets/images/${name}`, imp
         </ALink>
       </div>
     </div>
-  </div>
+  </ASection>
 </template>

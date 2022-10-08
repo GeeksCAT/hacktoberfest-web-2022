@@ -2,10 +2,11 @@
 import ATitle from '../Atoms/ATitle.vue'
 import ALink from '../Atoms/ALink.vue'
 import { startTime, dueTime } from '../../content'
+import ASection from '../Atoms/ASection.vue'
 </script>
 
 <template>
-  <div class="p-4">
+  <ASection>
     <ATitle>Què farem?`</ATitle>
     <p class="mb-4">
       Serà una trobada presencial al <ALink href="https://web.girona.cat/ccm">Cultural la Mercè</ALink> de Girona.
@@ -26,5 +27,5 @@ import { startTime, dueTime } from '../../content'
     <p class="mb-4">La idea principal és passar-nos-ho bé i si a més aconseguim fer contribucions, més que millor!</p>
     <p class="font-bold">Xerrades</p>
     <p>En altres espais s'aniran impartint xerrades i tallers. Consulta l'agenda per veure'ns els horaris.</p>
-  </div>
+  </ASection>
 </template>
