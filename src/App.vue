@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import Header from './components/Sections/Header.vue'
+import { IMenuOption } from './types'
+
+import Menu from './components/Sections/Menu.vue'
 import Intro from './components/Sections/Intro.vue'
 import Join from './components/Sections/Join.vue'
 import WhatWeWillDo from './components/Sections/WhatWeWillDo.vue'
@@ -9,17 +11,25 @@ import Organizer from './components/Sections/Organizer.vue'
 import Sponsors from './components/Sections/Sponsors.vue'
 import Contact from './components/Sections/Contact.vue'
 import Footer from './components/Sections/Footer.vue'
+
+const handlerMenuClick = (option: IMenuOption) => {
+  ;(document.getElementById(option.ref) as HTMLElement).scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+    inline: 'nearest'
+  })
+}
 </script>
 
 <template>
-  <Header />
+  <Menu @click="handlerMenuClick" id="begin" />
   <Intro />
   <Join />
-  <WhatWeWillDo />
-  <Diary />
+  <WhatWeWillDo id="watWeWillDo" />
+  <Diary id="diary" />
   <CodeOfConduct />
   <Organizer />
-  <Sponsors />
-  <Contact />
+  <Sponsors id="sponsors" />
+  <Contact id="contact" />
   <Footer />
 </template>
