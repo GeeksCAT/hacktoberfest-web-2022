@@ -2,7 +2,6 @@
 import { diary } from '../../content'
 import ATitle from '../Atoms/ATitle.vue'
 import ASection from '../Atoms/ASection.vue'
-console.log(diary)
 </script>
 <template>
   <ASection>
