@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { IMenuOption } from '@/types'
-import { ref } from 'vue'
 import MMenuOptions from '../Modules/MMenuOptions.vue'
 
 const emit = defineEmits(['click'])
