@@ -9,10 +9,6 @@ const menuOptions: IMenuOption[] = [
     ref: 'begin'
   },
   {
-    name: 'Què farem?',
-    ref: 'watWeWillDo'
-  },
-  {
     name: 'Agenda',
     ref: 'diary'
   },
@@ -33,6 +29,8 @@ const handlerClick = (option: IMenuOption) => {
 
 <template>
   <ul class="flex gap-2">
-    <li v-for="option in menuOptions" :key="option.ref" @click="handlerClick(option)">{{ option.name }}</li>
+    <li v-for="option in menuOptions" :key="option.ref" @click="handlerClick(option)" class="cursor-pointer">
+      {{ option.name }}
+    </li>
   </ul>
 </template>

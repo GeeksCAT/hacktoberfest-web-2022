@@ -11,7 +11,7 @@ const getImageUrl = (name: string) => new URL(`../../assets/images/${name}`, imp
   <ASection>
     <ATitle>Patrocinadors</ATitle>
     <div class="flex flex-wrap">
-      <div v-for="(sponsor, index) in sponsors" :key="index" class="text-center w-1/2">
+      <div v-for="(sponsor, index) in sponsors" :key="index" class="text-center w-1/2 my-4">
         <ALink :href="sponsor.web">
           <img :src="getImageUrl(sponsor.logo)" class="w-32 block mx-auto" />
         </ALink>

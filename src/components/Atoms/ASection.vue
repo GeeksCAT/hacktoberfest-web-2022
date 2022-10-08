@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { toRefs } from 'vue'
+
 const props = defineProps({
   variant: {
     required: false,
@@ -12,7 +13,7 @@ const { variant } = toRefs(props)
 </script>
 
 <template>
-  <div class="p-4" :class="variant"><slot /></div>
+  <div class="p-8" :class="variant"><slot /></div>
 </template>
 
 <style lang="scss" scoped>
