@@ -7,7 +7,7 @@ const getImageUrl = (name: string) => new URL(`../../assets/images/${name}`, imp
 </script>
 
 <template>
-  <div>
+  <div class="p-4">
     <ATitle>Patrocinadors</ATitle>
     <div class="flex flex-wrap">
       <div v-for="(sponsor, index) in sponsors" :key="index" class="text-center w-1/2">

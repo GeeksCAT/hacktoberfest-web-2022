@@ -5,9 +5,16 @@ const props = defineProps({
     required: false,
     default: null,
     type: String
+  },
+  variant: {
+    required: false,
+    type: String,
+    default: 'primary',
+    validator: (value: string) => ['primary', 'light'].includes(value)
   }
 })
-const { href } = toRefs(props)
+const { href, variant } = toRefs(props)
+
 const handlerClick = () => {
   if (!href.value) {
     return
@@ -17,5 +24,14 @@ const handlerClick = () => {
 </script>
 
 <template>
-  <button class="bg-secondary text-white py-2 px-4" @click="handlerClick"><slot /></button>
+  <button :class="variant" @click="handlerClick"><slot /></button>
 </template>
+
+<style lang="scss" scoped>
+.primary {
+  @apply bg-secondary text-white py-2 px-4;
+}
+.light {
+  @apply bg-white text-secondary py-2 px-4;
+}
+</style>
