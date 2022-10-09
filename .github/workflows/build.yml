@@ -1,0 +1,21 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+      - ci/gha
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build the Docker image
+        run: |
+          export VERSION=$(npm pkg get version | tr -d '"')
+          export IMAGE=hacktoberfest-web:$VERSION
+
+          docker build . --file Dockerfile --tag $IMAGE
+          echo ":rocket: Image generated: **$IMAGE**" >> $GITHUB_STEP_SUMMARY
