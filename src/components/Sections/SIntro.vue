@@ -14,9 +14,20 @@ import ATitle from '../Atoms/ATitle.vue'
       de tot el món a <b>participar en projectes de codi obert</b>.
     </p>
     <p class="text-center py-4">Aquest any celebrem la segona edició de la <b>Festa de l'OpenSource</b>!</p>
-    <p class="text-center pt-4">A GRANS TRETS TINDREM:</p>
+    <p class="text-center pt-4 mb-4">A GRANS TRETS TINDREM:</p>
     <ul class="text-center mb-4">
       <li v-for="(item, index) in weWillHave" :key="index">{{ item }}</li>
     </ul>
   </a-section>
 </template>
+
+<style scoped lang="scss">
+ul {
+  @apply flex my-2 gap-4;
+  li {
+    @apply border leading-4 py-2 border-fourth;
+    $color1: #a1ffff;
+    box-shadow: 0px 0px 15px $color1;
+  }
+}
+</style>
