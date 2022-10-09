@@ -19,7 +19,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <ArrowUpCircleIcon
+  <arrow-up-circle-icon
     class="fixed z-10 w-20 bottom-2 right-2 cursor-pointer text-third"
     @click="handlerGoUp"
     v-if="showIcon" />

@@ -8,13 +8,13 @@ const getImageUrl = (name: string) => new URL(`../../assets/images/${name}`, imp
 </script>
 
 <template>
-  <ASection>
-    <ATitle>Organitzadors</ATitle>
+  <a-section>
+    <a-title>Organitzadors</a-title>
     <div class="flex">
       <div v-for="(organizer, index) in organizers" :key="index" class="text-center grow">
         <img :src="getImageUrl(organizer.logo)" class="w-32 block mx-auto" />
-        <ALink :href="organizer.web">{{ organizer.name }}</ALink>
+        <a-link :href="organizer.web">{{ organizer.name }}</a-link>
       </div>
     </div>
-  </ASection>
+  </a-section>
 </template>

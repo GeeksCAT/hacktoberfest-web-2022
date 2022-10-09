@@ -6,10 +6,10 @@ import ASection from '../Atoms/ASection.vue'
 </script>
 
 <template>
-  <ASection>
-    <ATitle>Què farem?`</ATitle>
+  <a-section>
+    <a-title>Què farem?`</a-title>
     <p class="mb-4">
-      Serà una trobada presencial al <ALink href="https://web.girona.cat/ccm">Cultural la Mercè</ALink> de Girona.
+      Serà una trobada presencial al <a-link href="https://web.girona.cat/ccm">Cultural la Mercè</a-link> de Girona.
     </p>
     <p class="mb-4">
       Començarem a les <b>{{ startTime }}</b> i finalitzarem a les <b>{{ dueTime }}</b
@@ -27,5 +27,5 @@ import ASection from '../Atoms/ASection.vue'
     <p class="mb-4">La idea principal és passar-nos-ho bé i si a més aconseguim fer contribucions, més que millor!</p>
     <p class="font-bold">Xerrades</p>
     <p>En altres espais s'aniran impartint xerrades i tallers. Consulta l'agenda per veure'ns els horaris.</p>
-  </ASection>
+  </a-section>
 </template>

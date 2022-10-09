@@ -15,12 +15,12 @@ const handlerClick = () => {
 </script>
 
 <template>
-  <ASection variant="dark">
-    <ATitle>Contacte</ATitle>
-    <ABox class="flex flex-wrap">
+  <a-section variant="dark">
+    <a-title>Contacte</a-title>
+    <a-box class="flex flex-wrap">
       <p class="mb-2 w-full">Vull estar al corrent de les novetats de Geeks.CAT</p>
       <input type="email" class="p-2 rounded mr-2 w-40 text-secondary" placeholder="un@email.cat" v-model="email" />
-      <AButton variant="light" @click="handlerClick">Notifica'm</AButton>
-    </ABox>
-  </ASection>
+      <a-button variant="light" @click="handlerClick">Notifica'm</a-button>
+    </a-box>
+  </a-section>
 </template>
