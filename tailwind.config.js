@@ -3,9 +3,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#ff9566',
-        secondary: '#582d41',
-        third: '#3d1f2d'
+        primary: '#a4e7bc',
+        secondary: '#13161d',
+        third: '#f29f59',
+        fourth: '#a1ffff'
       },
       fontFamily: {
         special: ['squealer']
