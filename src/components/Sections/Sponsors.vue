@@ -8,14 +8,14 @@ const getImageUrl = (name: string) => new URL(`../../assets/images/${name}`, imp
 </script>
 
 <template>
-  <ASection>
-    <ATitle>Patrocinadors</ATitle>
+  <a-section>
+    <a-title>Patrocinadors</a-title>
     <div class="flex flex-wrap">
       <div v-for="(sponsor, index) in sponsors" :key="index" class="text-center w-1/2 my-4">
-        <ALink :href="sponsor.web">
+        <a-link :href="sponsor.web">
           <img :src="getImageUrl(sponsor.logo)" class="w-32 block mx-auto" />
-        </ALink>
+        </a-link>
       </div>
     </div>
-  </ASection>
+  </a-section>
 </template>

@@ -11,6 +11,6 @@ const handlerClick = (option: IMenuOption) => {
 
 <template>
   <div class="bg-third text-white p-4 flex justify-end">
-    <MMenuOptions @click="handlerClick" />
+    <m-menu-options @click="handlerClick" />
   </div>
 </template>
