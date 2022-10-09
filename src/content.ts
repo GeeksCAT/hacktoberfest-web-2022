@@ -30,7 +30,7 @@ export const supporters: ISupporter[] = [
     web: 'https://pycamp.es/'
   },
   {
-    logo: 'logo-geekscat.png',
+    logo: 'pyladies.png',
     name: 'PyLadies ES',
     web: 'https://pyladies.org/'
   }
