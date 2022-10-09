@@ -5,7 +5,7 @@ import ATitle from '../Atoms/ATitle.vue'
 </script>
 
 <template>
-  <a-section class="dark">
+  <a-section class="dark section">
     <a-title variant="dark" class="mb-0 mt-4">OPEN SOURCE GIRONA</a-title>
     <h2 class="text-center text-third mb-4">2A EDICIÓ DE LA FESTA</h2>
     <h2 class="text-center text-sm text-gray-500">GEEKS.CAT & PYTHON GIRONA</h2>
@@ -29,5 +29,9 @@ ul {
     $color1: #a1ffff;
     box-shadow: 0px 0px 15px $color1;
   }
+}
+.section {
+  background-image: url(../../assets/images/bg.jpg);
+  background-position: bottom;
 }
 </style>

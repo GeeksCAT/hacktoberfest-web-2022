@@ -39,3 +39,10 @@ const handlerClick = (option: IMenuOption) => {
     </ul>
   </div>
 </template>
+
+<style scoped lang="scss">
+div {
+  background-image: url(../../assets/images/bg.jpg);
+  background-position: 0 bottom;
+}
+</style>
