@@ -14,7 +14,8 @@ jobs:
       - name: Build the Docker image
         run: |
           export VERSION=$(npm pkg get version | tr -d '"')
-          export IMAGE=hacktoberfest-web:$VERSION
+          export GIT_HASH=$(git rev-parse --short HEAD)
+          export IMAGE=hacktoberfest-web:${VERSION}_${GIT_HASH}
 
           docker build . --file Dockerfile --tag $IMAGE
           echo ":rocket: Image generated: **$IMAGE**" >> $GITHUB_STEP_SUMMARY
