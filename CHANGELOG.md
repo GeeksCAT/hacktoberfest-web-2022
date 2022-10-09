@@ -6,4 +6,4 @@ Per a mantenir el changelog, s'està seguint el format descrit a continuació: h
 
 ### Added
 
-- Primera verssió
+- Primera versió
