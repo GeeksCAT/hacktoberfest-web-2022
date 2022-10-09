@@ -11,5 +11,5 @@ const { href } = toRefs(props)
 </script>
 
 <template>
-  <a :href="href" class="text-primary"><slot /></a>
+  <a :href="href" class="text-third"><slot /></a>
 </template>

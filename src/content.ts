@@ -1,6 +1,5 @@
 import { IOrganizer, ISponsor, IEvent } from './types'
 
-export const year = new Date().getFullYear()
 export const weWillHave = ['Marató de PRs', 'Xerrades i tallers', 'Lightning talks']
 export const eventBriteURL = 'https://www.eventbrite.es/e/entradas-festa-opensource-girona-2021-geekscat-1878194520370'
 export const startTime = '9:30h'

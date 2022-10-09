@@ -5,12 +5,12 @@ import ASection from '../Atoms/ASection.vue'
 </script>
 
 <template>
-  <a-section>
-    <a-title>Agenda</a-title>
+  <a-section class="dark">
+    <a-title variant="dark">Agenda</a-title>
     <div v-for="(hour, index) in diary" :key="index" class="mb-4">
       <b>{{ hour.hour }}</b>
       <div v-for="(room, index2) in hour.rooms" :key="index2" class="ml-4">
-        Sala <b>{{ room.name }}</b> : <span class="text-primary">{{ room.event }}</span>
+        Sala <b>{{ room.name }}</b> : <span>{{ room.event }}</span>
       </div>
     </div>
   </a-section>
