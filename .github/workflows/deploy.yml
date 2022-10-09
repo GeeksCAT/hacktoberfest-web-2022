@@ -1,0 +1,40 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  # build:
+  #   runs-on: ubuntu-latest
+
+  #   steps:
+  #     - uses: actions/checkout@v3
+  #     - name: Build the Docker image
+  #       run: |
+  #         export VERSION=$(npm pkg get version | tr -d '"')
+  #         export GIT_HASH=$(git rev-parse --short HEAD)
+  #         export IMAGE=hacktoberfest-web:${VERSION}_${GIT_HASH}
+
+  #         docker build . --file Dockerfile --tag $IMAGE
+  #         echo ":rocket: Image generated: **$IMAGE**" >> $GITHUB_STEP_SUMMARY
+  build_vue:
+    runs-on: ubuntu-latest
+    name: Build static site
+    steps:
+    - uses: actions/checkout@v3
+
+      - name: Install 🔧
+        run: yarn install
+
+      - name: Build 🏗️
+        run: |
+          yarn clean
+          yarn build
+
+      - name: Deploy to GH Pages 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
