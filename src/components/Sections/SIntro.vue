@@ -23,9 +23,9 @@ import ATitle from '../Atoms/ATitle.vue'
 
 <style scoped lang="scss">
 ul {
-  @apply flex my-2 gap-4;
+  @apply flex my-2 gap-4 justify-center;
   li {
-    @apply border leading-4 py-2 border-fourth;
+    @apply border leading-4 py-2 px-4 border-fourth;
     $color1: #a1ffff;
     box-shadow: 0px 0px 15px $color1;
   }
