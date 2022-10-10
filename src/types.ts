@@ -1,13 +1,14 @@
-export interface IOrganizer {
+export interface IOrganization {
   logo: string
   name: string
   web: string
 }
 
-export interface ISponsor {
-  logo: string
-  web: string
-}
+export interface IOrganizer extends IOrganization {}
+
+export interface ISupporter extends IOrganization {}
+
+export interface ISponsor extends IOrganization {}
 
 export interface IMenuOption {
   name: string

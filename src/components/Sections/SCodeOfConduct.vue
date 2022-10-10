@@ -6,7 +6,7 @@ import ASection from '../Atoms/ASection.vue'
 
 <template>
   <a-section>
-    <a-title>Codi de conducte</a-title>
+    <a-title>Codi de conducta</a-title>
     <p>
       Per participar hauràs d'acceptar el nostre
       <a-link href="https://www.contributor-covenant.org/ca/version/2/0/code_of_conduct/">codi de conducta</a-link> i el

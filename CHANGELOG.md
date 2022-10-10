@@ -4,6 +4,8 @@ Per a mantenir el changelog, s'està seguint el format descrit a continuació: h
 
 ## [Unreleased]
 
+- Add supporters section (Aj Girona, PyCamp, PyLadies)
+
 ### Added
 
-- Primera verssió
+- Primera versió

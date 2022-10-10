@@ -7,7 +7,8 @@ import SJoin from '../components/Sections/SJoin.vue'
 import SWhatWeWillDo from '../components/Sections/WhatWeWillDo.vue'
 import SDiary from '../components/Sections/SDiary.vue'
 import SCodeOfConduct from '../components/Sections/SCodeOfConduct.vue'
-import SOrganizer from '../components/Sections/SOrganizer.vue'
+import SOrganizers from '../components/Sections/SOrganizers.vue'
+import SSupporters from '../components/Sections/SSupporters.vue'
 import SSponsors from '../components/Sections/Sponsors.vue'
 import SContact from '../components/Sections/SContact.vue'
 import SFooter from '../components/Sections/SFooter.vue'
@@ -29,7 +30,8 @@ const handlerMenuClick = (option: IMenuOption) => {
   <s-what-we-will-do id="watWeWillDo" />
   <s-diary id="diary" />
   <s-code-of-conduct id="codeOfConduct" />
-  <s-organizer id="organizer" />
+  <s-organizers id="organizers" />
+  <s-supporters id="supporters" />
   <s-sponsors id="sponsors" />
   <s-contact id="contact" />
   <s-footer />
