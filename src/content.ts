@@ -1,11 +1,11 @@
-import { IOrganizer, ISupporter, ISponsor, IEvent } from './types'
+import { ILogo, IEvent } from './types'
 
 export const weWillHave = ['Marató de PRs', 'Xerrades i tallers', 'Lightning talks']
 export const eventBriteURL = 'https://www.eventbrite.es/e/entradas-festa-opensource-girona-2021-geekscat-1878194520370'
 export const startTime = '9:30h'
 export const dueTime = '19h'
 
-export const organizers: IOrganizer[] = [
+export const organizers: ILogo[] = [
   {
     logo: 'logo-pythongirona.png',
     name: 'Python Girona',
@@ -18,7 +18,7 @@ export const organizers: IOrganizer[] = [
   }
 ]
 
-export const supporters: ISupporter[] = [
+export const supporters: ILogo[] = [
   {
     logo: 'ajuntament.png',
     name: 'Ajuntament de Girona',
@@ -36,7 +36,7 @@ export const supporters: ISupporter[] = [
   }
 ]
 
-export const sponsors: ISponsor[] = [
+export const sponsors: ILogo[] = [
   {
     logo: 'photopills.png',
     name: 'PhotoPillsx',
