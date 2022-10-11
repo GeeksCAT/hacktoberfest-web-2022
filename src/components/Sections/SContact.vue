@@ -12,7 +12,7 @@ const handlerClick = () => {
 <template>
   <a-section variant="dark">
     <a-title variant="dark">Contacte</a-title>
-    <a-box class="flex flex-wrap">
+    <a-box class="flex flex-wrap justify-center text-center">
       <p class="mb-2 w-full">Vull estar al corrent de les novetats de Geeks.CAT</p>
       <a-button variant="light" @click="handlerClick">Notifica'm</a-button>
     </a-box>
