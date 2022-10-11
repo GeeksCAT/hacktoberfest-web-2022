@@ -6,8 +6,8 @@ import ATitle from '../Atoms/ATitle.vue'
 
 <template>
   <a-section class="dark section flex flex-col justify-center items-center">
-    <a-title variant="dark" class="mb-8 text-7xl">OPEN SOURCE GIRONA</a-title>
-    <h2 class="text-center text-third m-4 text-5xl">2a EDICIÓ DE LA FESTA</h2>
+    <a-title variant="dark" class="mb-12 text-7xl">OPEN SOURCE GIRONA</a-title>
+    <h2 class="text-center text-third mx-4 my-8 text-5xl">2a EDICIÓ DE LA FESTA</h2>
     <h2 class="text-center text-gray-500 text-3xl">GEEKS.CAT & PYTHON GIRONA</h2>
     <p class="text-center mt-8 py-4">
       El Hacktoberfest és un <b>esdeveniment</b> anual d'un <b>mes de duració</b> creat per animar als desenvolupadors
