@@ -13,7 +13,11 @@ const { variant } = toRefs(props)
 </script>
 
 <template>
-  <div class="p-8" :class="variant"><slot /></div>
+  <div class="p-8" :class="variant">
+    <div class="md:max-w-4xl md:mx-auto">
+      <slot />
+    </div>
+  </div>
 </template>
 
 <style lang="scss" scoped>
