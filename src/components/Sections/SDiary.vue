@@ -39,7 +39,7 @@ import ASection from '../Atoms/ASection.vue'
           </tr>
           <tr>
             <td>10:30</td>
-            <td><i>"Control de l'automatització de tasques recurrents emprant Airflow"</i> per Pau Boix@SOM</td>
+            <td><i>"Control de l'automatització de tasques recurrents emprant Airflow"</i> per Pau Boix</td>
             <td rowspan="2">Marató PR</td>
           </tr>
           <tr>
@@ -53,13 +53,13 @@ import ASection from '../Atoms/ASection.vue'
           <tr>
             <td>15:30</td>
             <td rowspan="4">Taller Intro a Django</td>
-            <td><i>"Introducció a Odoo, l'ERP de Python"</i> per Oriol Piera@SOM</td>
+            <td><i>"Introducció a Odoo, l'ERP de Python"</i> per Oriol Piera</td>
             <td rowspan="4">Marató PR</td>
             <td rowspan="4">Marató PR</td>
           </tr>
           <tr>
             <td>16:30</td>
-            <td><i>"OS datawarehouse"</i> per Jorge@KaveHome</td>
+            <td><i>"OS datawarehouse"</i> per Jorge Salazar</td>
           </tr>
           <tr>
             <td>17:30</td>
