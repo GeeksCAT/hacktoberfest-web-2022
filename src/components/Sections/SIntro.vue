@@ -2,6 +2,7 @@
 import { weWillHave } from '../../content'
 import ASection from '../Atoms/ASection.vue'
 import ATitle from '../Atoms/ATitle.vue'
+import ALink from '../Atoms/ALink.vue'
 </script>
 
 <template>
@@ -10,8 +11,9 @@ import ATitle from '../Atoms/ATitle.vue'
     <h2 class="text-center text-third mx-4 my-8 text-5xl">2a EDICIÓ DE LA FESTA</h2>
     <h2 class="text-center text-gray-500 text-3xl">GEEKS.CAT & PYTHON GIRONA</h2>
     <p class="text-center mt-8 py-4">
-      El Hacktoberfest és un <b>esdeveniment</b> anual d'un <b>mes de duració</b> creat per animar als desenvolupadors
-      de tot el món a <b>participar en projectes de codi obert</b>.
+      El <a-link href="https://hacktoberfest.com/">Hacktoberfest</a-link> és un <b>esdeveniment</b> anual d'un
+      <b>mes de duració</b> creat per animar als desenvolupadors de tot el món a
+      <b>participar en projectes de codi obert</b>.
     </p>
     <p class="text-center py-4">Aquest any celebrem la segona edició de la <b>Festa de l'OpenSource</b>!</p>
     <p class="text-center pt-4 mb-4">Què farem?</p>
