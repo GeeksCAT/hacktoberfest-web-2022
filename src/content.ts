@@ -1,21 +1,21 @@
 import { ILogo, IEvent } from './types'
 
 export const weWillHave = ['Marató de PRs', 'Xerrades i tallers', 'Lightning talks']
-export const eventBriteURL = 'https://www.eventbrite.es/e/entradas-festa-opensource-girona-2021-geekscat-1878194520370'
+export const eventBriteURL = 'https://www.eventbrite.es/e/entradas-festa-opensource-girona-2022-geekscat-439113368907'
 export const startTime = '9:30h'
 export const dueTime = '19h'
 
 export const organizers: ILogo[] = [
   {
+    logo: 'logo-geekscat.png',
+    name: 'Geeks.Cat',
+    web: 'https://geekscat.org/'
+  },
+  {
     logo: 'logo-pythongirona.png',
     name: 'Python Girona',
     web: 'https://pythongirona.cat/'
   },
-  {
-    logo: 'logo-geekscat.png',
-    name: 'Geeks.Cat',
-    web: 'https://geekscat.org/'
-  }
 ]
 
 export const supporters: ILogo[] = [
@@ -25,21 +25,21 @@ export const supporters: ILogo[] = [
     web: 'https://web.girona.cat/'
   },
   {
+    logo: 'pyladies.png',
+    name: 'PyLadies ES',
+    web: 'https://pyladies.org/'
+  },  
+  {
     logo: 'pycamp.png',
     name: 'PyCamp ES',
     web: 'https://pycamp.es/'
   },
-  {
-    logo: 'pyladies.png',
-    name: 'PyLadies ES',
-    web: 'https://pyladies.org/'
-  }
 ]
 
 export const sponsors: ILogo[] = [
   {
     logo: 'photopills.png',
-    name: 'PhotoPillsx',
+    name: 'PhotoPills',
     web: 'https://www.photopills.com/es'
   },
   {
