@@ -13,7 +13,7 @@ const { variant } = toRefs(props)
 </script>
 
 <template>
-  <div class="text-center text-2xl mb-4 uppercase" :class="variant"><slot /></div>
+  <div class="text-center text-2xl mb-8 uppercase" :class="variant"><slot /></div>
 </template>
 
 <style lang="scss" scoped>
