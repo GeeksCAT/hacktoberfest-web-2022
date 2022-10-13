@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import ATitle from '../Atoms/ATitle.vue'
 import ALink from '../Atoms/ALink.vue'
-import { startTime, dueTime } from '../../content'
+import { startTime, dueTime, eventDate } from '../../content'
 import ASection from '../Atoms/ASection.vue'
 </script>
 
@@ -10,7 +10,8 @@ import ASection from '../Atoms/ASection.vue'
     <a-title>Què farem?`</a-title>
     <p class="mb-4">
       Serà una trobada presencial al <a-link href="https://web.girona.cat/ccm">Centre Cultural la Mercè</a-link> de
-      Girona.
+      Girona el dia <b>{{ eventDate }}</b
+      >.
     </p>
     <p class="mb-4">
       Començarem a les <b>{{ startTime }}</b> i finalitzarem a les <b>{{ dueTime }}</b
