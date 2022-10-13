@@ -4,6 +4,7 @@ export const weWillHave = ['Marató de PRs', 'Xerrades i tallers', 'Lightning ta
 export const eventBriteURL = 'https://www.eventbrite.es/e/entradas-festa-opensource-girona-2022-geekscat-439113368907'
 export const startTime = '9:30h'
 export const dueTime = '19h'
+export const eventDate = '23/10/2022'
 
 export const organizers: ILogo[] = [
   {
@@ -15,7 +16,7 @@ export const organizers: ILogo[] = [
     logo: 'logo-pythongirona.png',
     name: 'Python Girona',
     web: 'https://pythongirona.cat/'
-  },
+  }
 ]
 
 export const supporters: ILogo[] = [
@@ -28,12 +29,12 @@ export const supporters: ILogo[] = [
     logo: 'pyladies.png',
     name: 'PyLadies ES',
     web: 'https://pyladies.org/'
-  },  
+  },
   {
     logo: 'pycamp.png',
     name: 'PyCamp ES',
     web: 'https://pycamp.es/'
-  },
+  }
 ]
 
 export const sponsors: ILogo[] = [
