@@ -22,6 +22,9 @@ export interface IEvent {
 
 export interface ISpeaker {
   name: string
-  twitter: string
-  summary: string
+  talk: string
+  summary: string[]
+  bio: string[]
+  twitter?: string
+  linkedin?: string
 }
