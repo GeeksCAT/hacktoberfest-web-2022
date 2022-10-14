@@ -1,4 +1,4 @@
-import { ILogo, IEvent } from './types'
+import { ILogo, IEvent, ISpeaker } from './types'
 
 export const weWillHave = ['Marató de PRs', 'Xerrades i tallers', 'Lightning talks']
 export const eventBriteURL = 'https://www.eventbrite.es/e/entradas-festa-opensource-girona-2022-geekscat-439113368907'
@@ -90,5 +90,32 @@ export const diary: IEvent[] = [
         link: null
       }
     ]
+  }
+]
+
+export const speakers: ISpeaker[] = [
+  {
+    name: 'Pau Boix',
+    twitter: '@foo',
+    summary:
+      "Ens parlarà de Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    name: 'Pablo Ridolfi',
+    twitter: '@foo',
+    summary:
+      "Ens parlarà de Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    name: 'Oriol Piera',
+    twitter: '@foo',
+    summary:
+      "Ens parlarà de Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    name: 'Jorge Salazar',
+    twitter: '@foo',
+    summary:
+      "Ens parlarà de Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
   }
 ]

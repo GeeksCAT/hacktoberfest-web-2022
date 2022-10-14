@@ -19,3 +19,9 @@ export interface IEvent {
   hour: string
   rooms: IEventRoom[]
 }
+
+export interface ISpeaker {
+  name: string
+  twitter: string
+  summary: string
+}
