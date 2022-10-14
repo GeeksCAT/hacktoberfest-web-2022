@@ -4,7 +4,7 @@ import { IMenuOption } from '../types'
 import SMenu from '../components/Sections/SMenu.vue'
 import SIntro from '../components/Sections/SIntro.vue'
 import SJoin from '../components/Sections/SJoin.vue'
-import SWhatWeWillDo from '../components/Sections/WhatWeWillDo.vue'
+import SWhatWeWillDo from '../components/Sections/SWhatWeWillDo.vue'
 import SDiary from '../components/Sections/SDiary.vue'
 import SCodeOfConduct from '../components/Sections/SCodeOfConduct.vue'
 import SOrganizers from '../components/Sections/SOrganizers.vue'
@@ -13,6 +13,7 @@ import SSponsors from '../components/Sections/Sponsors.vue'
 import SContact from '../components/Sections/SContact.vue'
 import SFooter from '../components/Sections/SFooter.vue'
 import MGoUp from '../components/Modules/MGoUp.vue'
+import SSpeakers from '../components/Sections/SSpeakers.vue'
 
 const handlerMenuClick = (option: IMenuOption) => {
   ;(document.getElementById(option.ref) as HTMLElement).scrollIntoView({
@@ -29,6 +30,7 @@ const handlerMenuClick = (option: IMenuOption) => {
   <s-join id="join" />
   <s-what-we-will-do id="watWeWillDo" />
   <s-diary id="diary" />
+  <s-speakers />
   <s-code-of-conduct id="codeOfConduct" />
   <s-organizers id="organizers" />
   <s-supporters id="supporters" />

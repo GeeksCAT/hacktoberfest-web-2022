@@ -7,7 +7,7 @@ import ASection from '../Atoms/ASection.vue'
 
 <template>
   <a-section>
-    <a-title>Què farem?`</a-title>
+    <a-title>Què farem?</a-title>
     <p class="mb-4">
       Serà una trobada presencial al <a-link href="https://web.girona.cat/ccm">Centre Cultural la Mercè</a-link> de
       Girona el dia <b>{{ eventDate }}</b

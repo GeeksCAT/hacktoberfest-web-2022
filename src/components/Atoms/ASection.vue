@@ -14,7 +14,7 @@ const { variant } = toRefs(props)
 
 <template>
   <div class="p-8" :class="variant">
-    <div class="md:max-w-4xl md:mx-auto">
+    <div class="w-full md:max-w-4xl md:mx-auto">
       <slot />
     </div>
   </div>
