@@ -39,14 +39,19 @@ export const supporters: ILogo[] = [
 
 export const sponsors: ILogo[] = [
   {
-    logo: 'photopills.png',
-    name: 'PhotoPills',
-    web: 'https://www.photopills.com/es'
+    logo: 'gisce.png',
+    name: 'GISCE',
+    web: 'https://gisce.net/es/'
   },
   {
-    logo: 'apsl.png',
-    name: 'APSL',
-    web: 'https://apsl.tech/en/'
+    logo: 'hipsotech.png',
+    name: 'HIPSOTECH',
+    web: 'https://www.hipsotech.com/'
+  },
+  {
+    logo: 'kave_home.png',
+    name: 'Kave Home',
+    web: 'https://kavehome.com/es/es/'
   },
   {
     logo: 'fundcraft.png',
@@ -54,14 +59,14 @@ export const sponsors: ILogo[] = [
     web: 'https://www.fundcraft.lu/'
   },
   {
-    logo: 'gisce.png',
-    name: 'GISCE',
-    web: 'https://gisce.net/es/'
+    logo: 'apsl.png',
+    name: 'APSL',
+    web: 'https://apsl.tech/en/'
   },
   {
-    logo: 'kave_home.png',
-    name: 'Kave Home',
-    web: 'https://kavehome.com/es/es/'
+    logo: 'photopills.png',
+    name: 'PhotoPills',
+    web: 'https://www.photopills.com/es'
   }
 ]
 

@@ -34,7 +34,7 @@ const handlerMenuClick = (option: IMenuOption) => {
   <s-code-of-conduct id="codeOfConduct" />
   <s-organizers id="organizers" />
   <s-supporters id="supporters" />
-  <s-sponsors v-if="false" id="sponsors" />
+  <s-sponsors id="sponsors" />
   <s-contact id="contact" />
   <s-footer />
   <m-go-up />
