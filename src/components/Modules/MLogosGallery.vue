@@ -17,23 +17,13 @@ const props = defineProps({
   }
 })
 const { items, showLink } = toRefs(props)
-const handlerGoToWeb = (logo: ILogo): void => {
-  if (!logo.web) {
-    return
-  }
-  window.location.href = logo.web
-}
 </script>
 
 <template>
   <div class="flex flex-wrap">
-    <div
-      v-for="(item, index) in items"
-      :key="index"
-      class="text-center w-1/2 my-4 md:w-1/3"
-      @click="handlerGoToWeb(item)">
+    <a v-for="(item, index) in items" :key="index" :href="item.web" class="text-center w-1/2 my-4 md:w-1/3">
       <img :src="getImageUrl(item.logo)" class="w-32 block mx-auto" />
       <a-link :href="item.web" v-if="showLink">{{ item.name }}</a-link>
-    </div>
+    </a>
   </div>
 </template>

@@ -28,7 +28,7 @@ export const supporters: ILogo[] = [
   {
     logo: 'pyladies.png',
     name: 'PyLadies ES',
-    web: 'https://pyladies.org/'
+    web: 'https://pyladies.com/'
   },
   {
     logo: 'pycamp.png',
