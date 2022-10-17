@@ -47,6 +47,10 @@ import ASection from '../Atoms/ASection.vue'
             <td><i>"ESP32 emprant C + SSL"</i> per Pablo Ridolfi</td>
           </tr>
           <tr>
+            <td>12:30</td>
+            <td colspan="4">Networking / Converses Geeks al Claustre</td>
+          </tr>
+          <tr>
             <td>13:00</td>
             <td colspan="4" class="text-center">Dinar</td>
           </tr>
