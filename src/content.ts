@@ -67,6 +67,11 @@ export const sponsors: ILogo[] = [
     logo: 'photopills.png',
     name: 'PhotoPills',
     web: 'https://www.photopills.com/es'
+  },
+  {
+    logo: 'bimconsultors.jpg',
+    name: 'BiM Consultors',
+    web: 'https://bimconsultors.com'
   }
 ]
 
