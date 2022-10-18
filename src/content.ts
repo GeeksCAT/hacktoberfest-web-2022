@@ -110,19 +110,22 @@ export const speakers: ISpeaker[] = [
     talk: 'Taller introducció a Django',
     summary: [
       'Vols aprendre a programar i crear les teves pròpies aplicacions web?',
-      "Durant el taller aprendrem com emprar el <a class='text-third' href='https://www.djangoproject.com/' target='_blank'>framework web Django</a> seguint la filosofia Django Girls: petits grups liderats per una mentora que segueixen el tutorial d'iniciació a Django"
+      "Durant el taller aprendrem com emprar el <a class='text-third' href='https://www.djangoproject.com/' target='_blank'>framework web Django</a> seguint la filosofia Django Girls: petits grups liderats per una mentora que segueixen el tutorial d'iniciació a Django."
     ],
     bio: [
-      'Miembro de PyLadies España, Python España y co-fundadora de LinuxChixAr, actualmente trabaja en Mática Partners como Data Engineer'
+      'Miembro de PyLadies España, Python España y co-fundadora de LinuxChixAr, actualmente trabaja en Mática Partners como Data Engineer.'
     ]
   },
   {
     name: 'Pau Boix',
     talk: "Control de l'automatització de tasques recurrents emprant Airflow",
     summary: [
-      'Introducció a <a class="text-third" target="_blank" href="https://airflow.apache.org/">Apache Airflow</a> enfocada a preparar la nostra primera pipeline.'
+      '<a class="text-third" target="_blank" href="https://airflow.apache.org/">Apache Airflow</a> és una plataforma open source de gestió de fluxes de treball.',
+      "A la presentació veurem els conceptes bàsics d'Airflow i com podem desenvolupar el nostre primer DAG."
     ],
-    bio: []
+    bio: [
+      "En Pau s'acaba de graduar com a enginyer infromàtic per la UdG i porta més d'un any treballant a Som Energia on ha realitzat el seu TFG centrat en l'implantació d'Apache Airflow a la cooperativa."
+    ]
   },
   {
     name: 'Pablo Ridolfi',
@@ -131,7 +134,7 @@ export const speakers: ISpeaker[] = [
     summary: [
       'Obtén el máximo rendimiento de tu ESP32: desarrolla aplicaciones en lenguaje C con el <a class="text-third" target="_blank" href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/">framework ESP-IDF</a>.',
       'La familia de microcontroladores ESP32 se ha vuelto un estándar de facto para el desarrollo de hardware IoT gracias a sus prestaciones de conectividad y su compatibilidad con plataformas como Arduino y Micropython.',
-      'En esta presentación abordaremos aspectos básicos del Espressif IoT Development Framework (ESP-IDF) que nos permitirá desarrollar aplicaciones en lenguaje C buscando obtener el mayor rendimiento de esta plataforma de hardware. Finalmente realizaremos un ejercicio de conectividad SSL desde un dispositivo basado en ESP32 hacia un servidor en la nube'
+      'En esta presentación abordaremos aspectos básicos del Espressif IoT Development Framework (ESP-IDF) que nos permitirá desarrollar aplicaciones en lenguaje C buscando obtener el mayor rendimiento de esta plataforma de hardware. Finalmente realizaremos un ejercicio de conectividad SSL desde un dispositivo basado en ESP32 hacia un servidor en la nube.'
     ],
     bio: [
       'Pablo es ingeniero en electrónica (Universidad Tecnológica Nacional) y magíster en sistemas embebidos (Universidad de Buenos Aires). Actualmente es lead field application engineer en Satellogic, donde es responsable por maximizar las métricas de rendimiento, confiabilidad y calidad de la flota de satélites LEO de la compañía.'
@@ -152,7 +155,7 @@ export const speakers: ISpeaker[] = [
     talk: 'OS datawarehouse',
     summary: [
       'How to create a highly operational Data Warehouse with Open-Source tools through a layered architecture that allows responding to the business needs that Data Scientists and business intelligence specialists solve.',
-      'Possible Big Data and Data Lake strategies. Proposal for the development cycle of solutions with Machine Learning'
+      'Possible Big Data and Data Lake strategies. Proposal for the development cycle of solutions with Machine Learning.'
     ],
     bio: [
       'Computer engineer Jorge Salazar Marrero with more than 13 years of experience in Data environments. I worked as Team Lead of a team of Data Analysts at Hewlett Packard Enterprise and I currently work as Team Lead of the Kave Home S.L. Data Team.'
