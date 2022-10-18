@@ -157,5 +157,19 @@ export const speakers: ISpeaker[] = [
     bio: [
       'Computer engineer Jorge Salazar Marrero with more than 13 years of experience in Data environments. I worked as Team Lead of a team of Data Analysts at Hewlett Packard Enterprise and I currently work as Team Lead of the Kave Home S.L. Data Team.'
     ]
+  },
+  {
+    name: 'Israel Saeta',
+    // linkedin: 'dukebody',
+    twitter: 'dukebody',
+    talk: 'Crea la teva web amb un Static Site Generator',
+    summary: [
+      "En els últims anys s'han anat popularitzant els Static Site Generators (SSG) com a una alternativa senzilla, eficient i segura per crear pàgines webs.",
+      'En aquesta xerrada explicarem els principis bàsics i mostrarem exemples en alguns dels sistemes de SSG més populars.'
+    ],
+    bio: [
+      'Apassionat de la informàtica des de petitet. Vaig aprendre a programar amb recursos gratuïts i llibres. Actualment treballo a TravelPerk dirigint un equip i programant en Python i una mica en JavaScript quan tinc temps :)',
+      'També he col·laborat en múltiples comunitats relacionades amb Python com PyBCN i Python España.'
+    ]
   }
 ]
