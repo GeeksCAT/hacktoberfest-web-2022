@@ -37,12 +37,12 @@ import ASection from '../Atoms/ASection.vue'
             <td>10:00</td>
             <td>KickOff</td>
           </tr>
-          <tr>
+          <tr class="double-tr">
             <td>10:30</td>
             <td><i>"Control de l'automatització de tasques recurrents emprant Airflow"</i> per Pau Boix</td>
             <td rowspan="2">Marató PR</td>
           </tr>
-          <tr>
+          <tr class="double-tr">
             <td>11:30</td>
             <td><i>"ESP32 emprant C + SSL"</i> per Pablo Ridolfi</td>
           </tr>
@@ -50,11 +50,11 @@ import ASection from '../Atoms/ASection.vue'
             <td>12:30</td>
             <td colspan="4">Networking / Converses Geeks al Claustre</td>
           </tr>
-          <tr>
+          <tr class="double-tr">
             <td>13:00</td>
             <td colspan="4" class="text-center">Dinar</td>
           </tr>
-          <tr>
+          <tr class="double-tr">
             <td>15:30</td>
             <td rowspan="4">Taller Intro a Django</td>
             <td><i>"Introducció a Odoo, l'ERP de Python"</i> per Oriol Piera</td>
@@ -63,10 +63,14 @@ import ASection from '../Atoms/ASection.vue'
           </tr>
           <tr>
             <td>16:30</td>
+            <td><i>"Crea la teva web amb un Static Site Generator"</i> per Israel Saeta</td>
+          </tr>
+          <tr class="double-tr">
+            <td>17:00</td>
             <td><i>"OS datawarehouse"</i> per Jorge Salazar</td>
           </tr>
-          <tr>
-            <td>17:30</td>
+          <tr class="double-tr">
+            <td>18:00</td>
             <td>Lightning Talks</td>
           </tr>
           <tr>
@@ -93,5 +97,9 @@ td {
 
 tr {
   height: 50px;
+}
+
+tr.double-tr {
+  height: 100px;
 }
 </style>
