@@ -72,6 +72,11 @@ export const sponsors: ILogo[] = [
     logo: 'bimconsultors.jpg',
     name: 'BiM Consultors',
     web: 'https://bimconsultors.com'
+  },
+  {
+    logo: 'clouding.png',
+    name: 'Clouding',
+    web: 'https://clouding.io/'
   }
 ]
 
