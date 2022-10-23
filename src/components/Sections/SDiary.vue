@@ -19,10 +19,10 @@ import ASection from '../Atoms/ASection.vue'
         <thead>
           <tr>
             <th>Hora</th>
-            <th>Sala polivalent</th>
-            <th>Pati</th>
-            <th>Claustre</th>
             <th>Aula 1</th>
+            <th>Sala polivalent</th>
+            <th>Claustre</th>
+            <th>Aula 2</th>
           </tr>
         </thead>
         <tbody>
