@@ -8,6 +8,7 @@ const menuOptions: IMenuOption[] = [
     name: 'Inici',
     ref: 'begin'
   },
+  /*
   {
     name: 'Agenda',
     ref: 'diary'
@@ -16,6 +17,7 @@ const menuOptions: IMenuOption[] = [
     name: 'Patrocinadors',
     ref: 'sponsors'
   },
+  */
   {
     name: 'Contacte',
     ref: 'contact'
