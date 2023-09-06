@@ -7,15 +7,15 @@ import ALink from '../Atoms/ALink.vue'
 
 <template>
   <a-section class="dark section flex flex-col justify-center items-center">
-    <a-title variant="dark" class="mb-12 text-7xl">OPEN SOURCE GIRONA</a-title>
-    <h2 class="text-center text-third mx-4 my-8 text-5xl">2a EDICIÓ DE LA FESTA</h2>
-    <h2 class="text-center text-gray-500 text-3xl">GEEKS.CAT & PYTHON GIRONA</h2>
+    <a-title variant="dark" class="mb-12 text-7xl">OPEN SOURCE GIRONA 2023</a-title>
+    <h2 class="text-center text-third mx-4 my-8 text-5xl">3a EDICIÓ DE LA FESTA</h2>
+    <h2 class="text-center text-gray-500 text-3xl">GEEKS.CAT</h2>
     <p class="text-center mt-8 py-4">
       El <a-link href="https://hacktoberfest.com/">Hacktoberfest</a-link> és un <b>esdeveniment</b> anual d'un
       <b>mes de duració</b> creat per animar als desenvolupadors de tot el món a
       <b>participar en projectes de codi obert</b>.
     </p>
-    <p class="text-center py-4">Aquest any celebrem la segona edició de la <b>Festa de l'OpenSource</b>!</p>
+    <p class="text-center py-4">Aquest any celebrem la tercera edició de la <b>Festa de l'OpenSource</b>!</p>
     <p class="text-center pt-4 mb-4">Què farem?</p>
     <ul class="text-center mb-4">
       <li v-for="(item, index) in weWillHave" :key="index">{{ item }}</li>
