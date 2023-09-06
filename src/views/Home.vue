@@ -27,7 +27,9 @@ const handlerMenuClick = (option: IMenuOption) => {
 <template>
   <s-menu @click="handlerMenuClick" id="begin" />
   <s-intro id="intro" />
+<!-- 
   <s-join id="join" />
+-->
   <s-what-we-will-do id="watWeWillDo" />
 <!-- 
   <s-diary id="diary" />
