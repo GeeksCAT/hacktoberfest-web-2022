@@ -5,6 +5,6 @@ import ASection from '../Atoms/ASection.vue'
 
 <template>
   <a-section>
-    <p>Si tens qualsevol dubte escriu-nos a <a-link href="mailto:info@geekscat.org">info@geekscat.org</a-link></p>
+    <p class="text-center">Si tens qualsevol dubte escriu-nos a <a-link href="mailto:info@geekscat.org">info@geekscat.org</a-link></p>
   </a-section>
 </template>
