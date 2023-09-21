@@ -34,9 +34,9 @@ const handlerMenuClick = (option: IMenuOption) => {
   <s-speakers />
 -->
   <s-code-of-conduct id="codeOfConduct" />
-<!-- 
   <s-organizers id="organizers" />
   <s-supporters id="supporters" />
+<!-- 
   <s-sponsors id="sponsors" />
 -->
   <s-contact id="contact" />

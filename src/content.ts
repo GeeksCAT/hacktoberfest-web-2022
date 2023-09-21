@@ -13,9 +13,9 @@ export const organizers: ILogo[] = [
     web: 'https://geekscat.org/'
   },
   {
-    logo: 'logo-pythongirona.png',
-    name: 'Python Girona',
-    web: 'https://pythongirona.cat/'
+    logo: 'gdg_girona.png',
+    name: 'Google Dev Group Girona',
+    web: 'https://gdg.community.dev/gdg-girona'
   }
 ]
 
@@ -25,16 +25,6 @@ export const supporters: ILogo[] = [
     name: 'Ajuntament de Girona',
     web: 'https://web.girona.cat/'
   },
-  {
-    logo: 'pyladies.png',
-    name: 'PyLadies ES',
-    web: 'https://pyladies.com/'
-  },
-  {
-    logo: 'pycamp.png',
-    name: 'PyCamp ES',
-    web: 'https://pycamp.es/'
-  }
 ]
 
 export const sponsors: ILogo[] = [
