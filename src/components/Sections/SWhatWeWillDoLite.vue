@@ -9,10 +9,10 @@ import ASection from '../Atoms/ASection.vue'
   <a-section>
     <a-title>Què farem?</a-title>
     <p class="mb-4">
-      Serà una trobada presencial a Girona el <b>{{ eventDate }}</b>. En breu confirmarem el lloc i l'agenda.
+      Serà una trobada presencial a Girona el <b>{{ eventDate }}</b> a l'espai de la Fundació ”la Caixa” de Girona.
     </p>
     <p class="mb-4">
-      Segurament començarem a les <b>{{ startTime }}</b> i finalitzarem a les <b>{{ dueTime }}</b>, amb una pausa per dinar.
+      Començarem a les <b>{{ startTime }}</b> i finalitzarem a les <b>{{ dueTime }}</b>, amb una pausa per dinar.
     </p>
 
     <p class="font-bold">Xerrades i tallers</p>
