@@ -15,67 +15,110 @@ import ASection from '../Atoms/ASection.vue'
     </div> -->
 
     <div class="overflow-x-auto">
-      <table class="table table-auto w-full">
+      <table class="table table-auto w-full" cellpadding="8">
         <thead>
           <tr>
             <th>Hora</th>
-            <th>Aula 1</th>
-            <th>Sala polivalent</th>
-            <th>Claustre</th>
-            <th>Aula 2</th>
+            <th>Auditori</th>
+            <th>Tallers A</th>
+            <th>Tallers B</th>
+            <th>Open Room</th>
           </tr>
         </thead>
         <tbody>
           <tr>
+            <td>9:00</td>
+            <td colspan="4">Obertura de portes</td>
+          </tr>
+          <tr>
             <td>9:30</td>
-            <td rowspan="4"></td>
-            <td>Obertura de portes</td>
-            <td rowspan="2"></td>
-            <td rowspan="2"></td>
+            <td>Benvinguda</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
           <tr>
             <td>10:00</td>
-            <td>KickOff</td>
+            <td>Connectant la teva aplicació amb la IA</td>
+            <td rowspan="2" valign="top">Enginy-era primària</td>
+            <td rowspan="2" valign="top">Introducció a Kubernetes</td>
+            <td rowspan="2" valign="top">Marató PRs</td>
           </tr>
-          <tr class="double-tr">
+          <tr>
             <td>10:30</td>
-            <td><i>"Control de l'automatització de tasques recurrents emprant Airflow"</i> per Pau Boix</td>
-            <td rowspan="2">Marató PR</td>
+            <td>El món dels controladors leverless de hardware obert</td>
           </tr>
-          <tr class="double-tr">
+          <tr>
+            <td>11:00</td>
+            <td colspan="4">Descans</td>
+          </tr>
+          <tr>
             <td>11:30</td>
-            <td><i>"ESP32 emprant C + SSL"</i> per Pablo Ridolfi</td>
+            <td rowspan="2" valign="top">Com extreure ofertes de feina a LinkedIn amb Puppeteer i RxJS </td>
+            <td rowspan="2" valign="top">Enginy-era secundària</td>
+            <td rowspan="2" valign="top">Introducció a Kubernetes</td>
+            <td rowspan="5" valign="top">Marató PRs</td>
+          </tr>
+          <tr>
+            <td>12:00</td>
           </tr>
           <tr>
             <td>12:30</td>
-            <td colspan="4">Networking / Converses Geeks al Claustre</td>
+            <td>Me suenas: cómo nos conocimos antes de conocernos</td>
+            <td></td>
+            <td rowspan="3" valign="top">Introducción a Flutter</td>
           </tr>
-          <tr class="double-tr">
+          <tr>
             <td>13:00</td>
-            <td colspan="4" class="text-center">Dinar</td>
+            <td rowspan="2" valign="top">Virtualització amb Proxmox / Sonic PI</td>
+            <td rowspan="2" valign="top">AENTEG grup professionals AI</td>
           </tr>
-          <tr class="double-tr">
+          <tr>
+            <td>13:30</td>
+          </tr>
+          <tr>
+            <td>14:00</td>
+            <td colspan="4">Dinar</td>
+          </tr>
+          <tr>
             <td>15:30</td>
-            <td rowspan="4">Taller Intro a Django</td>
-            <td><i>"Introducció a Odoo, l'ERP de Python"</i> per Oriol Piera</td>
-            <td rowspan="4">Marató PR</td>
-            <td rowspan="4">Marató PR</td>
+            <td>Presentació programa de beques Google Summer of Code</td>
+            <td></td>
+            <td rowspan="3" valign="top">Domòtica amb HomeAssistant</td>
+            <td rowspan="6" valign="top">Marató PRs</td>
+          </tr>
+          <tr>
+            <td>16:00</td>
+            <td rowspan="2" valign="top">Detectant problemes de web performance amb DevTools.</td>
+            <td></td>
           </tr>
           <tr>
             <td>16:30</td>
-            <td><i>"Crea la teva web amb un Static Site Generator"</i> per Israel Saeta</td>
+            <td></td>
           </tr>
-          <tr class="double-tr">
+          <tr>
             <td>17:00</td>
-            <td><i>"OS datawarehouse"</i> per Jorge Salazar</td>
+            <td rowspan="2" valign="top">Models de llenguatge amb IA generativa: visió i experiència</td>
+            <td></td>
+            <td></td>
           </tr>
-          <tr class="double-tr">
+          <tr>
+            <td>17:30</td>
+            <td></td>
+            <td rowspan="2" valign="top">Peach Bitcoin. La forma més fàcil i segura de començar en Bitcoin.</td>
+          </tr>
+          <tr>
             <td>18:00</td>
-            <td>Lightning Talks</td>
+            <td>Blazor Poet's Arena - Webapp emprant C# contra OpenAI ChatGPT</td>
+            <td></td>
           </tr>
           <tr>
             <td>19:00</td>
-            <td class="text-center">Cloenda</td>
+            <td colspan="4">Cloenda</td>
+          </tr>
+          <tr>
+            <td>19:30</td>
+            <td colspan="4">Tancament</td>
           </tr>
         </tbody>
       </table>
