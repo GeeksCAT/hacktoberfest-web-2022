@@ -22,7 +22,7 @@ const { items, showLink } = toRefs(props)
 <template>
   <div class="flex flex-wrap">
     <a v-for="(item, index) in items" :key="index" :href="item.web" target="_blank" class="text-center w-1/2 my-4 md:w-1/3">
-      <img :src="getImageUrl(item.logo)" class="w-32 max-w-32 block mx-auto" />
+      <img :title="item.title" :src="getImageUrl(item.logo)" class="w-32 max-w-32 block mx-auto" />
       <a-link :href="item.web" target="_blank" v-if="showLink">{{ item.name }}</a-link>
     </a>
   </div>

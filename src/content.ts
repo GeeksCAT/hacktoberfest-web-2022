@@ -23,7 +23,8 @@ export const supporters: ILogo[] = [
   {
     logo: 'ajuntament.png',
     name: 'Ajuntament de Girona',
-    web: 'https://web.girona.cat/'
+    web: 'https://web.girona.cat/',
+    title: "Amb el finançament de l'Ajuntament de Girona",
   },
 ]
 

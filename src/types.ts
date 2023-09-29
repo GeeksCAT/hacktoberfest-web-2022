@@ -2,6 +2,7 @@ export interface ILogo {
   logo: string
   name: string
   web: string
+  title?: string
 }
 
 export interface IMenuOption {
