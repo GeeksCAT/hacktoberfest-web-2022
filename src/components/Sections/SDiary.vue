@@ -5,7 +5,7 @@ import ASection from '../Atoms/ASection.vue'
 </script>
 
 <template>
-  <a-section class="dark">
+  <a-section>
     <a-title variant="dark">Agenda</a-title>
     <!-- <div v-for="(hour, index) in diary" :key="index" class="mb-4">
       <b>{{ hour.hour }}</b>
@@ -130,7 +130,7 @@ import ASection from '../Atoms/ASection.vue'
 table,
 th,
 td {
-  border: 1px solid white;
+  border: 1px solid grey;
   text-align: center;
 }
 
