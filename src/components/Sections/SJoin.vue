@@ -6,7 +6,7 @@ import ASection from '../Atoms/ASection.vue'
 </script>
 
 <template>
-  <a-section>
+  <a-section class="dark">
     <a-box>
       <h3 class="text-center text-xl mm-4">Vull participar!</h3>
       <p class="text-center my-4">
