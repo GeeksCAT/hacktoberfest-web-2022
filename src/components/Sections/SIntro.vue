@@ -8,7 +8,7 @@ import ALink from '../Atoms/ALink.vue'
 <template>
   <a-section class="dark section flex flex-col justify-center items-center">
     <a-title variant="dark" class="mb-12 text-7xl">OPEN SOURCE GIRONA 2023</a-title>
-    <h2 class="text-center text-third mx-4 my-8 text-5xl">4a EDICIÓ DE LA FESTA</h2>
+    <h2 class="text-center text-third mx-4 my-8 text-5xl">3a EDICIÓ DE LA FESTA</h2>
     <h2 class="text-center text-gray-500 text-3xl">GEEKS.CAT + GDG</h2>
     <p class="text-center mt-8 py-4">
       El <a-link target="_blank" href="https://hacktoberfest.com/">Hacktoberfest</a-link> és un <b>esdeveniment</b> anual d'un
