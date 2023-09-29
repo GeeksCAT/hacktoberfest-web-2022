@@ -17,8 +17,8 @@ import ASection from '../Atoms/ASection.vue'
 
     <p class="font-bold">Xerrades i tallers</p>
     <p class="mb-4">Durant tot el dia s'aniran fent xerrades i tallers sobre qualsevol tipus de tecnologia relacionada amb l'ecosistema Open Source</p>
-    <p class="mb-4">Ben aviat publicarem l'agenda definitiva, us podem avançar que entre d'altres parlarem d'IA generativa, domòtica, flutter, món crypto divises, desenv web, ...
-</p>
+    <p class="mb-4">Entre d'altres parlarem d'IA generativa, domòtica, flutter, món crypto divises, desenv web, ...</p>
+    <p class="mb-4">Per més info revisa l'<a-link href="#diary">agenda</a-link>.</p>
 
     <p class="font-bold">Marató de PRs</p>
     <p class="mb-4">
