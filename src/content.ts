@@ -1,7 +1,7 @@
 import { ILogo, IEvent, ISpeaker } from './types'
 
 export const weWillHave = ['Marató de PRs', 'Xerrades i tallers', 'Lightning talks']
-export const eventBriteURL = 'https://www.eventbrite.es/e/entradas-festa-opensource-girona-2022-geekscat-439113368907'
+export const eventBriteURL = 'https://www.eventbrite.es/e/entradas-festa-opensource-girona-2023-geekscat-gdg-718595698077'
 export const startTime = '9:30h'
 export const dueTime = '19h'
 export const eventDate = 'dissabte 21/10/2023'
