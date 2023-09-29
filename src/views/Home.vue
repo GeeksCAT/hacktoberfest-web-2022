@@ -14,6 +14,7 @@ import SContact from '../components/Sections/SContact.vue'
 import SFooter from '../components/Sections/SFooter.vue'
 import MGoUp from '../components/Modules/MGoUp.vue'
 import SSpeakers from '../components/Sections/SSpeakers.vue'
+import SCall4Sponsors from '../components/Sections/SCall4Sponsors.vue'
 
 const handlerMenuClick = (option: IMenuOption) => {
   ;(document.getElementById(option.ref) as HTMLElement).scrollIntoView({
@@ -27,11 +28,9 @@ const handlerMenuClick = (option: IMenuOption) => {
 <template>
   <s-menu @click="handlerMenuClick" id="begin" />
   <s-intro id="intro" />
-  <s-diary id="diary" />
   <s-what-we-will-do-lite id="watWeWillDo" />
-<!-- 
   <s-join id="join" />
--->
+  <s-diary id="diary" />
 <!--
   <s-speakers />
 -->
@@ -41,6 +40,7 @@ const handlerMenuClick = (option: IMenuOption) => {
 <!-- 
   <s-sponsors id="sponsors" />
 -->
+  <s-call4-sponsors id="call4sponsors" />
   <s-contact id="contact" />
   <s-footer />
   <m-go-up />

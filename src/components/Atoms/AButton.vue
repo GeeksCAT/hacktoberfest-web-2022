@@ -11,15 +11,25 @@ const props = defineProps({
     type: String,
     default: 'primary',
     validator: (value: string) => ['primary', 'light'].includes(value)
+  },
+  target: {
+    type: String,
+    default: null,
   }
 })
-const { href, variant } = toRefs(props)
+
+const { href, variant, target } = toRefs(props)
 
 const handlerClick = () => {
   if (!href.value) {
     return
   }
-  window.location.href = href.value
+  
+  if (target.value==="_blank") {
+    window.open(href.value);
+  } else {
+    window.location.href = href.value
+  }
 }
 </script>
 
