@@ -27,11 +27,11 @@ const handlerMenuClick = (option: IMenuOption) => {
 <template>
   <s-menu @click="handlerMenuClick" id="begin" />
   <s-intro id="intro" />
+  <s-diary id="diary" />
   <s-what-we-will-do-lite id="watWeWillDo" />
 <!-- 
   <s-join id="join" />
 -->
-  <s-diary id="diary" />
 <!--
   <s-speakers />
 -->
