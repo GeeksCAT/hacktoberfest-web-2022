@@ -17,7 +17,7 @@ import ASection from '../Atoms/ASection.vue'
     <div class="overflow-x-auto">
       <table class="table table-auto w-full" cellpadding="8">
         <thead>
-          <tr>
+          <tr style="background: #efefef;">
             <th>Hora</th>
             <th>Auditori</th>
             <th>Tallers A</th>
@@ -85,32 +85,33 @@ import ASection from '../Atoms/ASection.vue'
             <td>Presentació programa de beques Google Summer of Code</td>
             <td></td>
             <td rowspan="3" valign="top">Domòtica amb HomeAssistant</td>
-            <td rowspan="6" valign="top">Marató PRs</td>
+            <td rowspan="7" valign="top">Marató PRs</td>
           </tr>
           <tr>
             <td>16:00</td>
             <td rowspan="2" valign="top">Detectant problemes de web performance amb DevTools.</td>
-            <td></td>
+            <td rowspan="2"></td>
           </tr>
           <tr>
             <td>16:30</td>
-            <td></td>
           </tr>
           <tr>
             <td>17:00</td>
             <td rowspan="2" valign="top">Models de llenguatge amb IA generativa: visió i experiència</td>
-            <td></td>
+            <td rowspan="2"></td>
             <td></td>
           </tr>
           <tr>
             <td>17:30</td>
-            <td></td>
-            <td rowspan="2" valign="top">Peach Bitcoin. La forma més fàcil i segura de començar en Bitcoin.</td>
+            <td rowspan="3" valign="top">Peach Bitcoin. La forma més fàcil i segura de començar en Bitcoin.</td>
           </tr>
           <tr>
             <td>18:00</td>
-            <td>Blazor Poet's Arena - Webapp emprant C# contra OpenAI ChatGPT</td>
-            <td></td>
+            <td rowspan="2">Blazor Poet's Arena - Webapp emprant C# contra OpenAI ChatGPT</td>
+            <td rowspan="2"></td>
+          </tr>
+          <tr>
+            <td>18:30</td>
           </tr>
           <tr>
             <td>19:00</td>
