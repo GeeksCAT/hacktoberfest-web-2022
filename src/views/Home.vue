@@ -30,7 +30,7 @@ const handlerMenuClick = (option: IMenuOption) => {
   <s-intro id="intro" />
   <s-what-we-will-do-lite id="watWeWillDo" />
   <s-join id="join" />
-  <s-diary id="diary" />
+  <s-diary id="schedule" />
 <!--
   <s-speakers />
 -->

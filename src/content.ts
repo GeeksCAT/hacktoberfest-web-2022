@@ -26,6 +26,11 @@ export const supporters: ILogo[] = [
     web: 'https://web.girona.cat/',
     title: "Amb el finançament de l'Ajuntament de Girona",
   },
+  {
+    logo: 'assoc-catosfera-logo-2019.png',
+    name: 'Catosfera',
+    web: 'https://catosfera.cat/',
+  },  
 ]
 
 export const sponsors: ILogo[] = [
