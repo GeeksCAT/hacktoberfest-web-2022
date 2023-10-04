@@ -7,7 +7,7 @@ import MLogosGallery from '../Modules/MLogosGallery.vue'
 
 <template>
   <a-section>
-    <a-title>Amb el support de</a-title>
+    <a-title>Amb el suport de</a-title>
     <m-logos-gallery :items="supporters" :show-link="false" />
   </a-section>
 </template>
