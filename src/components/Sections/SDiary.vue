@@ -54,7 +54,7 @@ import ASection from '../Atoms/ASection.vue'
           </tr>
           <tr>
             <td>11:30</td>
-            <td rowspan="2" valign="top">Com extreure ofertes de feina a LinkedIn amb Puppeteer i RxJS </td>
+            <td rowspan="2" valign="top">Per què és important l'Open Source quan gestionem Bitcoin</td>
             <td rowspan="2" valign="top">Enginy-era secundària</td>
             <td rowspan="2" valign="top">Introducció a Kubernetes</td>
             <td rowspan="5" valign="top">Marató PRs</td>
@@ -103,7 +103,7 @@ import ASection from '../Atoms/ASection.vue'
           </tr>
           <tr>
             <td>17:30</td>
-            <td rowspan="3" valign="top">Peach Bitcoin. La forma més fàcil i segura de començar en Bitcoin.</td>
+            <td rowspan="3" valign="top">Com extreure ofertes de feina a LinkedIn amb Puppeteer i RxJS</td>
           </tr>
           <tr>
             <td>18:00</td>
