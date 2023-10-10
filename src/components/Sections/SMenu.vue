@@ -12,12 +12,10 @@ const menuOptions: IMenuOption[] = [
     name: 'Agenda',
     ref: 'diary'
   },
-  /*
   {
     name: 'Patrocinadors',
     ref: 'sponsors'
   },
-  */
   {
     name: 'Contacte',
     ref: 'contact'
@@ -31,11 +29,7 @@ const handlerClick = (option: IMenuOption) => {
 <template>
   <div class="bg-gradient-to-b from-gray-800 to-black text-black p-4 flex justify-end">
     <ul class="flex gap-4">
-      <li
-        v-for="option in menuOptions"
-        :key="option.ref"
-        @click="handlerClick(option)"
-        class="cursor-pointer text-white">
+      <li v-for="option in menuOptions" :key="option.ref" @click="handlerClick(option)" class="cursor-pointer text-white">
         {{ option.name }}
       </li>
     </ul>

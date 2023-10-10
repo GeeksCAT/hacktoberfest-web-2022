@@ -1,7 +1,8 @@
 import { ILogo, IEvent, ISpeaker } from './types'
 
 export const weWillHave = ['Marató de PRs', 'Xerrades i tallers', 'Lightning talks']
-export const eventBriteURL = 'https://www.eventbrite.es/e/entradas-festa-opensource-girona-2023-geekscat-gdg-718595698077'
+export const eventBriteURL =
+  'https://www.eventbrite.es/e/entradas-festa-opensource-girona-2023-geekscat-gdg-718595698077'
 export const startTime = '9:30h'
 export const dueTime = '19h'
 export const eventDate = 'dissabte 21/10/2023'
@@ -24,30 +25,25 @@ export const supporters: ILogo[] = [
     logo: 'ajuntament.png',
     name: 'Ajuntament de Girona',
     web: 'https://web.girona.cat/',
-    title: "Amb el finançament de l'Ajuntament de Girona",
+    title: "Amb el finançament de l'Ajuntament de Girona"
   },
   {
     logo: 'assoc-catosfera-logo-2019.png',
     name: 'Catosfera',
-    web: 'https://catosfera.cat/',
-  },  
+    web: 'https://catosfera.cat/'
+  }
 ]
 
 export const sponsors: ILogo[] = [
   {
+    logo: 'apsl.png',
+    name: 'APSL',
+    web: 'https://apsl.tech/es/'
+  },
+  {
     logo: 'gisce.png',
     name: 'GISCE',
     web: 'https://gisce.net/es/'
-  },
-  {
-    logo: 'hipsotech.png',
-    name: 'HIPSOTECH',
-    web: 'https://www.hipsotech.com/'
-  },
-  {
-    logo: 'kave_home.png',
-    name: 'Kave Home',
-    web: 'https://kavehome.com/es/es/'
   },
   {
     logo: 'fundcraft.png',
@@ -55,24 +51,24 @@ export const sponsors: ILogo[] = [
     web: 'https://www.fundcraft.lu/'
   },
   {
-    logo: 'apsl.png',
-    name: 'APSL',
-    web: 'https://apsl.tech/en/'
-  },
-  {
     logo: 'photopills.png',
     name: 'PhotoPills',
     web: 'https://www.photopills.com/es'
   },
   {
-    logo: 'bimconsultors.jpg',
-    name: 'BiM Consultors',
-    web: 'https://bimconsultors.com'
+    logo: 'kave_home.png',
+    name: 'Kave Home',
+    web: 'https://kavehome.com/es/ca/'
   },
   {
     logo: 'clouding.png',
     name: 'Clouding',
     web: 'https://clouding.io/'
+  },
+  {
+    logo: 'dobleseo.png',
+    name: 'Dobleseo',
+    web: 'https://dobleseo.pro'
   }
 ]
 

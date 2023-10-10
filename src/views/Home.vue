@@ -17,7 +17,7 @@ import SSpeakers from '../components/Sections/SSpeakers.vue'
 import SCall4Sponsors from '../components/Sections/SCall4Sponsors.vue'
 
 const handlerMenuClick = (option: IMenuOption) => {
-  ;(document.getElementById(option.ref) as HTMLElement).scrollIntoView({
+  ; (document.getElementById(option.ref) as HTMLElement).scrollIntoView({
     behavior: 'smooth',
     block: 'start',
     inline: 'nearest'
@@ -31,15 +31,13 @@ const handlerMenuClick = (option: IMenuOption) => {
   <s-what-we-will-do-lite id="watWeWillDo" />
   <s-join id="join" />
   <s-diary id="schedule" />
-<!--
+  <!--
   <s-speakers />
 -->
   <s-code-of-conduct id="codeOfConduct" />
   <s-organizers id="organizers" />
   <s-supporters id="supporters" />
-<!-- 
   <s-sponsors id="sponsors" />
--->
   <s-call4-sponsors id="call4sponsors" />
   <s-contact id="contact" />
   <s-footer />
